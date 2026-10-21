@@ -3,9 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Install Godot Engine on Ubuntu, Debian and Fedora: apt/dnf repository with Godot .NET (C#)</title>
-<meta name="description" content="Official Godot 4 builds as apt and dnf packages for Ubuntu, Debian, Linux Mint and Fedora, including Godot .NET (C#). Auto-updated, SHA-512 verified, godot on your PATH and in your app menu.">
+<title>Download Godot Engine for Ubuntu, Debian and Fedora: .deb/.rpm with Godot .NET (C#)</title>
+<meta name="description" content="Download official Godot 4 .deb and .rpm packages for Ubuntu, Debian, Linux Mint and Fedora, including Godot .NET (C#). Auto-updated, SHA-512 verified, godot on your PATH and in your app menu.">
 <meta name="keywords" content="godot, godot engine, godot 4, install godot ubuntu, godot apt repository, godot deb, godot rpm, godot fedora, godot .net, godot c#, godot mono linux, godot dotnet ubuntu">
+<link rel="icon" href="godot.svg" type="image/svg+xml">
 <link rel="canonical" href="https://riki137.github.io/godot-linux-packages/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Godot Engine apt/dnf repository (with .NET/C#)">
@@ -31,41 +32,51 @@ a { color: #6fb3f2; }
 pre { background: #12161b; padding: .8rem 1rem; overflow-x: auto; border-radius: 6px; }
 code { font-size: .9em; }
 table { border-collapse: collapse; }
-td, th { padding: .2rem .8rem .2rem 0; text-align: left; }
+td, th { padding: .35rem .8rem .35rem 0; text-align: left; border-bottom: 1px solid #2c333c; }
 h1 { line-height: 1.25; }
+.btn { display: inline-block; padding: .3rem .9rem; border-radius: 6px; background: #478cbf; color: #fff; font-weight: 600; text-decoration: none; }
 </style>
 </head>
 <body>
-<h1>Godot Engine for Ubuntu, Debian and Fedora (apt/dnf, with .NET/C#)</h1>
-<p>Official Godot 4 builds as <code>apt</code> and <code>dnf</code> packages, the .NET (C#) version included. A GitHub Action checks for new Godot releases every 3 hours and publishes them, no human involved.</p>
+<img src="godot.svg" width="96" height="96" alt="Godot Engine logo" style="float: right; margin-left: 1rem">
+<h1>Godot Engine for Ubuntu, Debian and Fedora (.deb/.rpm, with .NET/C#)</h1>
+<p>Official Godot 4 builds as <code>.deb</code> and <code>.rpm</code> packages, the .NET (C#) version included. Install once, and every new Godot release arrives with your normal system updates.</p>
 
-<h2>Install Godot on Ubuntu, Debian, Linux Mint, Pop!_OS</h2>
+<h2>Download Godot for Linux</h2>
+<table>
+<tr><th></th><th>Ubuntu, Debian, Mint</th><th>Fedora</th><th>arm64</th></tr>
+<tr><td>Godot .NET (C# and GDScript)</td><td><a class="btn" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet_amd64.deb">.deb</a></td><td><a class="btn" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet.x86_64.rpm">.rpm</a></td><td><a href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet_arm64.deb">deb</a>, <a href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet.aarch64.rpm">rpm</a></td></tr>
+<tr><td>Godot (GDScript)</td><td><a class="btn" href="https://riki137.github.io/godot-linux-packages/download/godot-engine_amd64.deb">.deb</a></td><td><a class="btn" href="https://riki137.github.io/godot-linux-packages/download/godot-engine.x86_64.rpm">.rpm</a></td><td><a href="https://riki137.github.io/godot-linux-packages/download/godot-engine_arm64.deb">deb</a>, <a href="https://riki137.github.io/godot-linux-packages/download/godot-engine.aarch64.rpm">rpm</a></td></tr>
+<tr><td>Godot .NET beta (dev, beta, rc)</td><td><a href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet-beta_amd64.deb">.deb</a></td><td><a href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet-beta.x86_64.rpm">.rpm</a></td><td><a href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet-beta_arm64.deb">deb</a>, <a href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet-beta.aarch64.rpm">rpm</a></td></tr>
+<tr><td>Godot beta (dev, beta, rc)</td><td><a href="https://riki137.github.io/godot-linux-packages/download/godot-engine-beta_amd64.deb">.deb</a></td><td><a href="https://riki137.github.io/godot-linux-packages/download/godot-engine-beta.x86_64.rpm">.rpm</a></td><td><a href="https://riki137.github.io/godot-linux-packages/download/godot-engine-beta_arm64.deb">deb</a>, <a href="https://riki137.github.io/godot-linux-packages/download/godot-engine-beta.aarch64.rpm">rpm</a></td></tr>
+</table>
+<p>Open the file to install it, or run <code>sudo apt install ./godot-engine-dotnet_amd64.deb</code> (Fedora: <code>sudo dnf install ./godot-engine-dotnet.x86_64.rpm</code>). The package also adds this repo, so <code>apt upgrade</code> and <code>dnf upgrade</code> keep Godot current. Install as many variants as you like.</p>
+
+<h2>Why</h2>
+<table>
+<tr><th></th><th>this repo</th><th>official zip</th><th>Flathub</th><th>distro package</th></tr>
+<tr><td>Godot .NET (C#)</td><td>✅</td><td>✅</td><td>⚠️ stuck on 4.3</td><td>❌</td></tr>
+<tr><td>newest Godot 4</td><td>✅</td><td>✅</td><td>✅</td><td>⚠️ Ubuntu 26.04 has 3.6</td></tr>
+<tr><td>official upstream binaries</td><td>✅</td><td>✅</td><td>❌ rebuilt</td><td>❌ rebuilt</td></tr>
+<tr><td>updates with the system</td><td>✅</td><td>❌</td><td>✅</td><td>✅</td></tr>
+<tr><td>uses your <code>dotnet</code> SDK and IDE</td><td>✅</td><td>✅</td><td>❌ sandboxed .NET 8</td><td>-</td></tr>
+<tr><td><code>godot</code> command on PATH</td><td>✅</td><td>❌</td><td>❌ <code>flatpak run</code></td><td>✅</td></tr>
+<tr><td>menu icon, <code>project.godot</code> opens it</td><td>✅</td><td>❌</td><td>✅</td><td>✅</td></tr>
+<tr><td>stable and beta side by side</td><td>✅</td><td>✅ by hand</td><td>⚠️</td><td>❌</td></tr>
+</table>
+<p>A GitHub Action checks for new Godot releases every 3 hours, tests the packages in Ubuntu and Fedora containers and publishes them.</p>
+
+<h2>Commands</h2>
+<p><code>godot-stable</code>, <code>godot-dotnet</code>, <code>godot-beta</code>, <code>godot-dotnet-beta</code>, and <code>godot</code> for one of them (.NET over plain, stable over beta). Switch with <code>sudo update-alternatives --config godot</code>.</p>
+
+<h2>Add the repo from the terminal</h2>
+<p>Ubuntu, Debian, Mint:</p>
 <pre><code>sudo wget -qO /etc/apt/keyrings/godot-linux-packages.asc https://riki137.github.io/godot-linux-packages/godot-linux-packages.asc
 sudo wget -qO /etc/apt/sources.list.d/godot-linux-packages.sources https://riki137.github.io/godot-linux-packages/godot-linux-packages.sources
 sudo apt update &amp;&amp; sudo apt install godot-engine-dotnet</code></pre>
-
-<h2>Install Godot on Fedora</h2>
+<p>Fedora:</p>
 <pre><code>sudo curl -fsSLo /etc/yum.repos.d/godot-linux-packages.repo https://riki137.github.io/godot-linux-packages/godot-linux-packages.repo
 sudo dnf install godot-engine-dotnet</code></pre>
-
-<table>
-<tr><th>package</th><th>command</th><th>what</th></tr>
-<tr><td><code>godot-engine</code></td><td><code>godot-stable</code></td><td>Godot (GDScript)</td></tr>
-<tr><td><code>godot-engine-dotnet</code></td><td><code>godot-dotnet</code></td><td>Godot .NET (C# and GDScript)</td></tr>
-<tr><td><code>godot-engine-beta</code></td><td><code>godot-beta</code></td><td>newest dev, beta or rc</td></tr>
-<tr><td><code>godot-engine-dotnet-beta</code></td><td><code>godot-dotnet-beta</code></td><td>newest dev, beta or rc, .NET</td></tr>
-</table>
-<p>Install any combination. <code>godot</code> runs one of them (.NET over plain, stable over beta), switch with <code>sudo update-alternatives --config godot</code>. x86_64 and arm64.</p>
-
-<h2>Why</h2>
-<ol>
-<li>Distros don't have it. Ubuntu 26.04 only ships Godot 3, Debian is a version behind and none of them has the .NET build.</li>
-<li>These are the official builds, byte for byte. Each package pins the SHA-512 of the upstream zip and checks it on install.</li>
-<li><code>apt upgrade</code> gets you a new Godot a few hours after its release. Nobody has to remember to bump a version.</li>
-<li>C# works with your normal <code>dotnet</code> SDK. No Flatpak sandbox between Godot, the SDK and your IDE.</li>
-<li><code>godot</code> is on your PATH, every variant gets a menu entry with an icon and <code>project.godot</code> files open in Godot.</li>
-<li>Stable and beta live side by side, so trying a beta doesn't cost you your stable editor.</li>
-</ol>
 
 <p>Source, scripts and issues: <a href="https://github.com/riki137/godot-linux-packages">github.com/riki137/godot-linux-packages</a></p>
 <p><small>Unofficial, not affiliated with the Godot Foundation. Godot is MIT licensed, the Godot logo is CC BY 4.0 by Andrea Calabró.</small></p>

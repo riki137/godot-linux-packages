@@ -1,15 +1,15 @@
-Date: Wed, 21 Oct 2026 11:26:45 +0000
+Date: Wed, 21 Oct 2026 11:42:57 +0000
 Label: Godot Engine
 Origin: godot-linux-packages
 MD5Sum:
- bd856b71bd1982786f49f9697f9e3392             7870 Packages
- 3430dd07716e5eacbc1343c5ab63bf2e             2056 Packages.gz
+ 0ee6eaa752f61592598c44d95978eac8            16196 Packages
+ ec7af168639d3582251bf6c89f0d18e0             3608 Packages.gz
 SHA1:
- 718dcd9039f75551950d96332bb4e7676e80324b             7870 Packages
- b471d1fa4486d15c053eb87558e91a36f71fc4c7             2056 Packages.gz
+ 30f9fce3c32a95c066c7d79ec13b5153c44d1fcd            16196 Packages
+ f3b13fa3a6fc90946cb8177da4e71823fd3db645             3608 Packages.gz
 SHA256:
- 27602b3ac84df888789654a4efeb1ff26676c348ca91ba26d3d4a83bafc827c2             7870 Packages
- 04522a3a79f4b54cb4f7461895d98b72b7db2e64360c47d6c9b25f5df9968786             2056 Packages.gz
+ 429c441b5ced4cfbb3eb3671c6e610b8d1c6d42ea30ca219518bdbb8bc65f79d            16196 Packages
+ 552a1b7a8920a21c50d7267c491d8a059e089ee51d4dfb7bd140365a97421194             3608 Packages.gz
 SHA512:
- f8cfeca94c288654bcae91a01ab506f7a1ed3f09e3420637600e767706f03d244b9de4650ed92e55f2105633f54823dff13973ab6c9d75fdac53a1f60d95ebdb             7870 Packages
- 97ade330467f4cea1d3155b620b0ed0cf871aad3a7f3b2abd1fbb2c6e916ecc6e0bd7081a470e7141e6e63941433a8060c9b2bd3c0c263514322b2820babbe2a             2056 Packages.gz
+ 602d3dfb82fa13eaed14bb409edfeabff6af748fb499feafdf9084be1e2d209d5a234af647d878ae8d8edd793ac752f08c72f9748603f7f11408a90331eddfe1            16196 Packages
+ 459308737ff7f72a8be4eb6d03ee0d2e49ace7bc209db5573232029b3b3717b7d6f540ed817ab583bf9b1b80df866fd8428ff8c0636cb83874830dfafb76b552             3608 Packages.gz
