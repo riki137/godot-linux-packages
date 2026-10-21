@@ -1,15 +1,51 @@
-Date: Wed, 21 Oct 2026 11:42:57 +0000
+Date: Wed, 21 Oct 2026 12:34:58 +0000
 Label: Godot Engine
 Origin: godot-linux-packages
 MD5Sum:
- 0ee6eaa752f61592598c44d95978eac8            16196 Packages
- ec7af168639d3582251bf6c89f0d18e0             3608 Packages.gz
+ a6ff68d2be6d657b63e96cc4d0199445            26166 Packages
+ 264e9d875c12b8a754103346f9bb4a69             5409 Packages.gz
+ 9a86468239c74f1b55ac1b70d578eec2             3904 dists/stable/Release
+ 1155a209751e69d1445b3ef2b8f72a58            13089 dists/stable/main/binary-amd64/Packages
+ 5c8149c96848236dbcabfc3f0fe3420d             3106 dists/stable/main/binary-amd64/Packages.gz
+ 701887570397bd2ed791c65675d8e2ec            13077 dists/stable/main/binary-arm64/Packages
+ a5e14011432188bc7668555ad4a0a039             3107 dists/stable/main/binary-arm64/Packages.gz
+ a067cb20214c2378d63033d36cbe7274             8121 dists/stable/main/dep11/Components-amd64.yml
+ 7f1fd8f414f2bb6e2b35dfc6c7e8d2ca             1216 dists/stable/main/dep11/Components-amd64.yml.gz
+ a067cb20214c2378d63033d36cbe7274             8121 dists/stable/main/dep11/Components-arm64.yml
+ 691f872e1e592fe44efcd44979b57b3e             1216 dists/stable/main/dep11/Components-arm64.yml.gz
 SHA1:
- 30f9fce3c32a95c066c7d79ec13b5153c44d1fcd            16196 Packages
- f3b13fa3a6fc90946cb8177da4e71823fd3db645             3608 Packages.gz
+ 5e21e380e8e1832db8df4908729d62ea7cd169ab            26166 Packages
+ ca56d04fa562211d7bc0d0343ca3d855d38ed082             5409 Packages.gz
+ 43f8d687d8dd505fd6728d6a3ca6f6ff2984c943             3904 dists/stable/Release
+ 81afe90c32a99836f72e0467e60ad334fc1ec492            13089 dists/stable/main/binary-amd64/Packages
+ 311542d91489c8dd07e65423054fc5ad8d618550             3106 dists/stable/main/binary-amd64/Packages.gz
+ 711e03768c080b7e5e5e4a17aaf42621947403d7            13077 dists/stable/main/binary-arm64/Packages
+ aec50deae922be96d49c80dedb2d2f6439c47a6f             3107 dists/stable/main/binary-arm64/Packages.gz
+ 6346aaa4335fc2aaa074e169bef73134380f7510             8121 dists/stable/main/dep11/Components-amd64.yml
+ 04f0cb462a8ba95739a119d811854ef4e82d1fb0             1216 dists/stable/main/dep11/Components-amd64.yml.gz
+ 6346aaa4335fc2aaa074e169bef73134380f7510             8121 dists/stable/main/dep11/Components-arm64.yml
+ 3c45164567c41df4633895035df7830d5573205a             1216 dists/stable/main/dep11/Components-arm64.yml.gz
 SHA256:
- 429c441b5ced4cfbb3eb3671c6e610b8d1c6d42ea30ca219518bdbb8bc65f79d            16196 Packages
- 552a1b7a8920a21c50d7267c491d8a059e089ee51d4dfb7bd140365a97421194             3608 Packages.gz
+ 4e49fea786ae032ed016d21aee966df098c016ec419f155c22574d4a24928080            26166 Packages
+ ff10523fdc87c5cf11953c1bdc2a8a78ffee9e0098e6e2fe2eca5d5de7c719d5             5409 Packages.gz
+ 196162b18934aae44a32480ad8acb34e944d007804607d834379787992adb4f9             3904 dists/stable/Release
+ 687ed387c3a40c111db5563845c9160832866d8cee7a409063fc1ffa1c37aae2            13089 dists/stable/main/binary-amd64/Packages
+ 55476de63c9df52f0cdba299ebe02d741d966263911f42e5a7061a69bc8e21e6             3106 dists/stable/main/binary-amd64/Packages.gz
+ fe688bef4170c5d74ce64b67a0a3b97e7f42f06ffe0d4a421d4fc4c2ee1f757d            13077 dists/stable/main/binary-arm64/Packages
+ 2b72523d5521d50d1beb0eea176cf8dfce34904dcfd63c94a42688ac557a1822             3107 dists/stable/main/binary-arm64/Packages.gz
+ 5a7b6c503d79fe92ff49127c4fc80efe26dc1ccd557a791e7a83be376b10cd28             8121 dists/stable/main/dep11/Components-amd64.yml
+ 6442997e6be40c1c2f3f5ceea6f5d95ccb83117cb438eb18eeb6fb37327b95af             1216 dists/stable/main/dep11/Components-amd64.yml.gz
+ 5a7b6c503d79fe92ff49127c4fc80efe26dc1ccd557a791e7a83be376b10cd28             8121 dists/stable/main/dep11/Components-arm64.yml
+ 1ed3458db5fe74871ae4961ea761a283445ad37cce059c7eed40c348caccc00c             1216 dists/stable/main/dep11/Components-arm64.yml.gz
 SHA512:
- 602d3dfb82fa13eaed14bb409edfeabff6af748fb499feafdf9084be1e2d209d5a234af647d878ae8d8edd793ac752f08c72f9748603f7f11408a90331eddfe1            16196 Packages
- 459308737ff7f72a8be4eb6d03ee0d2e49ace7bc209db5573232029b3b3717b7d6f540ed817ab583bf9b1b80df866fd8428ff8c0636cb83874830dfafb76b552             3608 Packages.gz
+ 6844a7c0752c88280544ad5724a6f539b5912368186f7a4ee9cdfb35910fd334cf5e9215082275fc23e52de583a4197d7634dbf87937a87c6aa77e7075eb89c1            26166 Packages
+ d59be61fc7acb759509e56a5bdf856d61b6d8ee24b1e64c7d7522402045926c516fab47319ac10cc84c99a1d2b7483ca0eaa8b4cb5959d7c9a31945b4f68d1de             5409 Packages.gz
+ ff75c50aa5a12b95f09ec2d40997c4deefa27736ef6cd81c22609fa837457cec98d5ee1e9d934931f79a8568c10a5f15d77ee2948ff2667c065620e2ab82edd6             3904 dists/stable/Release
+ 20c0109ea1a31273ff66385ea1e18c78a07a370c6934a8d0646d0700440e82bfe2e1d9f01313b383e752a8d42d8ea3eeb7f30c3179e53798f28806e889e32493            13089 dists/stable/main/binary-amd64/Packages
+ f0e8c4abcc0cba3f46b457c319513c1aad5824e55b6e4c15769f5755cb64bb0c934ec85f7423431fb1827575ab300fc63d71d56f76be9e904e36959175aed27e             3106 dists/stable/main/binary-amd64/Packages.gz
+ 9052cb2771a21acff4421c993cfdb0e153cfbf619a9ef218352bc2618f65deeccd536b6fc52680bbecc28200e1388c9a7206a55bcd115f5900aadb083d550ef9            13077 dists/stable/main/binary-arm64/Packages
+ a3b13fb0a770a879335d90b400242e78ac822b5afad340211c6a24d30a7e596a5bfa3270a7474f9713a417cdb74acbe8c64d9d77e8757269835135874e122dcb             3107 dists/stable/main/binary-arm64/Packages.gz
+ 19f5b226450193300c6108924b6f93afac9c916e760cccd84e6471f2fd2d9c668facfa156d16881f5c8b53290fc76f47ffcefe0155342814c7d1341c6cbe15a0             8121 dists/stable/main/dep11/Components-amd64.yml
+ d26ffbb847acece0c3bda829493117230b9ea5adb6b4ce1b3466b81c01eb604ebcf052ddea37170dd195ab15edb8e21a3bb966fe3cb33685a84e7dea6cd533a3             1216 dists/stable/main/dep11/Components-amd64.yml.gz
+ 19f5b226450193300c6108924b6f93afac9c916e760cccd84e6471f2fd2d9c668facfa156d16881f5c8b53290fc76f47ffcefe0155342814c7d1341c6cbe15a0             8121 dists/stable/main/dep11/Components-arm64.yml
+ b248c76c1a60cf56b449222079d19cb811e229719a98986a46d2580ce8ffd0a50dcb8736a750277e0ce30d5ef638c157c938b51652508222094f5ae341939cfe             1216 dists/stable/main/dep11/Components-arm64.yml.gz

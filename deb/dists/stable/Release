@@ -1,0 +1,43 @@
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Wed, 21 Oct 2026 12:34:58 +0000
+Label: Godot Engine
+Origin: godot-linux-packages
+Suite: stable
+MD5Sum:
+ 1155a209751e69d1445b3ef2b8f72a58            13089 main/binary-amd64/Packages
+ 5c8149c96848236dbcabfc3f0fe3420d             3106 main/binary-amd64/Packages.gz
+ 701887570397bd2ed791c65675d8e2ec            13077 main/binary-arm64/Packages
+ a5e14011432188bc7668555ad4a0a039             3107 main/binary-arm64/Packages.gz
+ a067cb20214c2378d63033d36cbe7274             8121 main/dep11/Components-amd64.yml
+ 7f1fd8f414f2bb6e2b35dfc6c7e8d2ca             1216 main/dep11/Components-amd64.yml.gz
+ a067cb20214c2378d63033d36cbe7274             8121 main/dep11/Components-arm64.yml
+ 691f872e1e592fe44efcd44979b57b3e             1216 main/dep11/Components-arm64.yml.gz
+SHA1:
+ 81afe90c32a99836f72e0467e60ad334fc1ec492            13089 main/binary-amd64/Packages
+ 311542d91489c8dd07e65423054fc5ad8d618550             3106 main/binary-amd64/Packages.gz
+ 711e03768c080b7e5e5e4a17aaf42621947403d7            13077 main/binary-arm64/Packages
+ aec50deae922be96d49c80dedb2d2f6439c47a6f             3107 main/binary-arm64/Packages.gz
+ 6346aaa4335fc2aaa074e169bef73134380f7510             8121 main/dep11/Components-amd64.yml
+ 04f0cb462a8ba95739a119d811854ef4e82d1fb0             1216 main/dep11/Components-amd64.yml.gz
+ 6346aaa4335fc2aaa074e169bef73134380f7510             8121 main/dep11/Components-arm64.yml
+ 3c45164567c41df4633895035df7830d5573205a             1216 main/dep11/Components-arm64.yml.gz
+SHA256:
+ 687ed387c3a40c111db5563845c9160832866d8cee7a409063fc1ffa1c37aae2            13089 main/binary-amd64/Packages
+ 55476de63c9df52f0cdba299ebe02d741d966263911f42e5a7061a69bc8e21e6             3106 main/binary-amd64/Packages.gz
+ fe688bef4170c5d74ce64b67a0a3b97e7f42f06ffe0d4a421d4fc4c2ee1f757d            13077 main/binary-arm64/Packages
+ 2b72523d5521d50d1beb0eea176cf8dfce34904dcfd63c94a42688ac557a1822             3107 main/binary-arm64/Packages.gz
+ 5a7b6c503d79fe92ff49127c4fc80efe26dc1ccd557a791e7a83be376b10cd28             8121 main/dep11/Components-amd64.yml
+ 6442997e6be40c1c2f3f5ceea6f5d95ccb83117cb438eb18eeb6fb37327b95af             1216 main/dep11/Components-amd64.yml.gz
+ 5a7b6c503d79fe92ff49127c4fc80efe26dc1ccd557a791e7a83be376b10cd28             8121 main/dep11/Components-arm64.yml
+ 1ed3458db5fe74871ae4961ea761a283445ad37cce059c7eed40c348caccc00c             1216 main/dep11/Components-arm64.yml.gz
+SHA512:
+ 20c0109ea1a31273ff66385ea1e18c78a07a370c6934a8d0646d0700440e82bfe2e1d9f01313b383e752a8d42d8ea3eeb7f30c3179e53798f28806e889e32493            13089 main/binary-amd64/Packages
+ f0e8c4abcc0cba3f46b457c319513c1aad5824e55b6e4c15769f5755cb64bb0c934ec85f7423431fb1827575ab300fc63d71d56f76be9e904e36959175aed27e             3106 main/binary-amd64/Packages.gz
+ 9052cb2771a21acff4421c993cfdb0e153cfbf619a9ef218352bc2618f65deeccd536b6fc52680bbecc28200e1388c9a7206a55bcd115f5900aadb083d550ef9            13077 main/binary-arm64/Packages
+ a3b13fb0a770a879335d90b400242e78ac822b5afad340211c6a24d30a7e596a5bfa3270a7474f9713a417cdb74acbe8c64d9d77e8757269835135874e122dcb             3107 main/binary-arm64/Packages.gz
+ 19f5b226450193300c6108924b6f93afac9c916e760cccd84e6471f2fd2d9c668facfa156d16881f5c8b53290fc76f47ffcefe0155342814c7d1341c6cbe15a0             8121 main/dep11/Components-amd64.yml
+ d26ffbb847acece0c3bda829493117230b9ea5adb6b4ce1b3466b81c01eb604ebcf052ddea37170dd195ab15edb8e21a3bb966fe3cb33685a84e7dea6cd533a3             1216 main/dep11/Components-amd64.yml.gz
+ 19f5b226450193300c6108924b6f93afac9c916e760cccd84e6471f2fd2d9c668facfa156d16881f5c8b53290fc76f47ffcefe0155342814c7d1341c6cbe15a0             8121 main/dep11/Components-arm64.yml
+ b248c76c1a60cf56b449222079d19cb811e229719a98986a46d2580ce8ffd0a50dcb8736a750277e0ce30d5ef638c157c938b51652508222094f5ae341939cfe             1216 main/dep11/Components-arm64.yml.gz

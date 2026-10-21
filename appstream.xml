@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components version="1.0" origin="godot-linux-packages">
+<!-- based on upstream's misc/dist/linux/org.godotengine.Godot.appdata.xml -->
+<component type="desktop-application">
+  <id>io.github.riki137.godot_engine</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Godot Engine</name>
+  <summary>Multi-platform 2D and 3D game engine with a feature-rich editor</summary>
+  <developer id="org.godotengine">
+    <name>The Godot Engine Community</name>
+  </developer>
+  <launchable type="desktop-id">godot-engine.desktop</launchable>
+  <description>
+    <p>Godot is an advanced, feature-packed, multi-platform 2D and 3D game engine. It provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel.</p>
+    <p>Godot is completely free and open source under the very permissive MIT license. No strings attached, no royalties, nothing. Your game is yours, down to the last line of engine code.</p>
+    <p>This is the official Godot 4.7.2-stable build, installed as a system package: it adds the godot-stable and godot commands, opens your .godot projects and updates with the rest of your system. Packaged by godot-linux-packages, which is not affiliated with the Godot Foundation.</p>
+  </description>
+  <categories>
+    <category>Development</category>
+    <category>IDE</category>
+  </categories>
+  <keywords>
+    <keyword>game engine</keyword>
+    <keyword>gamedev</keyword>
+    <keyword>godot</keyword>
+  </keywords>
+  <screenshots>
+    <screenshot type="default">
+      <caption>3D project loaded in the Godot Engine editor</caption>
+      <image>https://docs.godotengine.org/en/stable/_images/introduction_editor.webp</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://godotengine.org</url>
+  <url type="contact">https://github.com/riki137/godot-linux-packages/issues</url>
+  <url type="bugtracker">https://github.com/godotengine/godot/issues</url>
+  <url type="help">https://docs.godotengine.org</url>
+  <url type="donation">https://fund.godotengine.org</url>
+  <url type="vcs-browser">https://github.com/riki137/godot-linux-packages</url>
+  <provides>
+    <binary>godot-stable</binary>
+    <binary>godot</binary>
+  </provides>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="4.7.2-stable" date="2026-08-18"/>
+  </releases>
+  <pkgname>godot-engine</pkgname>  <icon type="stock">godot-engine</icon>  <icon type="remote">https://riki137.github.io/godot-linux-packages/godot.svg</icon></component>
+<!-- based on upstream's misc/dist/linux/org.godotengine.Godot.appdata.xml -->
+<component type="desktop-application">
+  <id>io.github.riki137.godot_engine_dotnet</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Godot Engine (.NET)</name>
+  <summary>Multi-platform 2D and 3D game engine with a feature-rich editor</summary>
+  <developer id="org.godotengine">
+    <name>The Godot Engine Community</name>
+  </developer>
+  <launchable type="desktop-id">godot-engine-dotnet.desktop</launchable>
+  <description>
+    <p>Godot is an advanced, feature-packed, multi-platform 2D and 3D game engine. It provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel. This is the .NET build, for writing games in C#.</p>
+    <p>Godot is completely free and open source under the very permissive MIT license. No strings attached, no royalties, nothing. Your game is yours, down to the last line of engine code.</p>
+    <p>This is the official Godot 4.7.2-stable build, installed as a system package: it adds the godot-dotnet and godot commands, opens your .godot projects and updates with the rest of your system. Packaged by godot-linux-packages, which is not affiliated with the Godot Foundation.</p>
+  </description>
+  <categories>
+    <category>Development</category>
+    <category>IDE</category>
+  </categories>
+  <keywords>
+    <keyword>game engine</keyword>
+    <keyword>gamedev</keyword>
+    <keyword>godot</keyword>
+  </keywords>
+  <screenshots>
+    <screenshot type="default">
+      <caption>3D project loaded in the Godot Engine editor</caption>
+      <image>https://docs.godotengine.org/en/stable/_images/introduction_editor.webp</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://godotengine.org</url>
+  <url type="contact">https://github.com/riki137/godot-linux-packages/issues</url>
+  <url type="bugtracker">https://github.com/godotengine/godot/issues</url>
+  <url type="help">https://docs.godotengine.org</url>
+  <url type="donation">https://fund.godotengine.org</url>
+  <url type="vcs-browser">https://github.com/riki137/godot-linux-packages</url>
+  <provides>
+    <binary>godot-dotnet</binary>
+    <binary>godot</binary>
+  </provides>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="4.7.2-stable" date="2026-08-18"/>
+  </releases>
+  <pkgname>godot-engine-dotnet</pkgname>  <icon type="stock">godot-engine-dotnet</icon>  <icon type="remote">https://riki137.github.io/godot-linux-packages/godot.svg</icon></component>
+<!-- based on upstream's misc/dist/linux/org.godotengine.Godot.appdata.xml -->
+<component type="desktop-application">
+  <id>io.github.riki137.godot_engine_beta</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Godot Engine Beta</name>
+  <summary>Multi-platform 2D and 3D game engine with a feature-rich editor</summary>
+  <developer id="org.godotengine">
+    <name>The Godot Engine Community</name>
+  </developer>
+  <launchable type="desktop-id">godot-engine-beta.desktop</launchable>
+  <description>
+    <p>Godot is an advanced, feature-packed, multi-platform 2D and 3D game engine. It provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel.</p>
+    <p>Godot is completely free and open source under the very permissive MIT license. No strings attached, no royalties, nothing. Your game is yours, down to the last line of engine code.</p>
+    <p>This is the official Godot 4.8-beta1 build, installed as a system package: it adds the godot-beta and godot commands, opens your .godot projects and updates with the rest of your system. Packaged by godot-linux-packages, which is not affiliated with the Godot Foundation.</p>
+  </description>
+  <categories>
+    <category>Development</category>
+    <category>IDE</category>
+  </categories>
+  <keywords>
+    <keyword>game engine</keyword>
+    <keyword>gamedev</keyword>
+    <keyword>godot</keyword>
+  </keywords>
+  <screenshots>
+    <screenshot type="default">
+      <caption>3D project loaded in the Godot Engine editor</caption>
+      <image>https://docs.godotengine.org/en/stable/_images/introduction_editor.webp</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://godotengine.org</url>
+  <url type="contact">https://github.com/riki137/godot-linux-packages/issues</url>
+  <url type="bugtracker">https://github.com/godotengine/godot/issues</url>
+  <url type="help">https://docs.godotengine.org</url>
+  <url type="donation">https://fund.godotengine.org</url>
+  <url type="vcs-browser">https://github.com/riki137/godot-linux-packages</url>
+  <provides>
+    <binary>godot-beta</binary>
+    <binary>godot</binary>
+  </provides>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="4.8-beta1" date="2026-10-15"/>
+  </releases>
+  <pkgname>godot-engine-beta</pkgname>  <icon type="stock">godot-engine-beta</icon>  <icon type="remote">https://riki137.github.io/godot-linux-packages/godot.svg</icon></component>
+<!-- based on upstream's misc/dist/linux/org.godotengine.Godot.appdata.xml -->
+<component type="desktop-application">
+  <id>io.github.riki137.godot_engine_dotnet_beta</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Godot Engine Beta (.NET)</name>
+  <summary>Multi-platform 2D and 3D game engine with a feature-rich editor</summary>
+  <developer id="org.godotengine">
+    <name>The Godot Engine Community</name>
+  </developer>
+  <launchable type="desktop-id">godot-engine-dotnet-beta.desktop</launchable>
+  <description>
+    <p>Godot is an advanced, feature-packed, multi-platform 2D and 3D game engine. It provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel. This is the .NET build, for writing games in C#.</p>
+    <p>Godot is completely free and open source under the very permissive MIT license. No strings attached, no royalties, nothing. Your game is yours, down to the last line of engine code.</p>
+    <p>This is the official Godot 4.8-beta1 build, installed as a system package: it adds the godot-dotnet-beta and godot commands, opens your .godot projects and updates with the rest of your system. Packaged by godot-linux-packages, which is not affiliated with the Godot Foundation.</p>
+  </description>
+  <categories>
+    <category>Development</category>
+    <category>IDE</category>
+  </categories>
+  <keywords>
+    <keyword>game engine</keyword>
+    <keyword>gamedev</keyword>
+    <keyword>godot</keyword>
+  </keywords>
+  <screenshots>
+    <screenshot type="default">
+      <caption>3D project loaded in the Godot Engine editor</caption>
+      <image>https://docs.godotengine.org/en/stable/_images/introduction_editor.webp</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://godotengine.org</url>
+  <url type="contact">https://github.com/riki137/godot-linux-packages/issues</url>
+  <url type="bugtracker">https://github.com/godotengine/godot/issues</url>
+  <url type="help">https://docs.godotengine.org</url>
+  <url type="donation">https://fund.godotengine.org</url>
+  <url type="vcs-browser">https://github.com/riki137/godot-linux-packages</url>
+  <provides>
+    <binary>godot-dotnet-beta</binary>
+    <binary>godot</binary>
+  </provides>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="4.8-beta1" date="2026-10-15"/>
+  </releases>
+  <pkgname>godot-engine-dotnet-beta</pkgname>  <icon type="stock">godot-engine-dotnet-beta</icon>  <icon type="remote">https://riki137.github.io/godot-linux-packages/godot.svg</icon></component>
+</components>
