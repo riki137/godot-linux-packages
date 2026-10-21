@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- based on upstream's misc/dist/linux/org.godotengine.Godot.appdata.xml -->
+<component type="desktop-application">
+  <id>@ID@</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>@NAME@</name>
+  <summary>Multi-platform 2D and 3D game engine with a feature-rich editor</summary>
+  <developer id="org.godotengine">
+    <name>The Godot Engine Community</name>
+  </developer>
+  <launchable type="desktop-id">@PKG@.desktop</launchable>
+  <description>
+    <p>Godot is an advanced, feature-packed, multi-platform 2D and 3D game engine. It provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel.@CSHARP@</p>
+    <p>Godot is completely free and open source under the very permissive MIT license. No strings attached, no royalties, nothing. Your game is yours, down to the last line of engine code.</p>
+    <p>This is the official Godot @VERSION@ build, installed as a system package: it adds the @CMD@ and godot commands, opens your .godot projects and updates with the rest of your system. Packaged by godot-linux-packages, which is not affiliated with the Godot Foundation.</p>
+  </description>
+  <categories>
+    <category>Development</category>
+    <category>IDE</category>
+  </categories>
+  <keywords>
+    <keyword>game engine</keyword>
+    <keyword>gamedev</keyword>
+    <keyword>godot</keyword>
+  </keywords>
+  <screenshots>
+    <screenshot type="default">
+      <caption>3D project loaded in the Godot Engine editor</caption>
+      <image>https://docs.godotengine.org/en/stable/_images/introduction_editor.webp</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://godotengine.org</url>
+  <url type="contact">https://github.com/riki137/godot-linux-packages/issues</url>
+  <url type="bugtracker">https://github.com/godotengine/godot/issues</url>
+  <url type="help">https://docs.godotengine.org</url>
+  <url type="donation">https://fund.godotengine.org</url>
+  <url type="vcs-browser">https://github.com/riki137/godot-linux-packages</url>
+  <provides>
+    <binary>@CMD@</binary>
+    <binary>godot</binary>
+  </provides>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="@VERSION@" date="@DATE@"/>
+  </releases>
+</component>

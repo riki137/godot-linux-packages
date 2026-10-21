@@ -4,7 +4,7 @@
 # Output: dist/<upstream tag>-<REV>/*.deb *.rpm, one directory per new release. Needs gh, curl and nfpm.
 # rpms are signed when SIGNING_KEY_FILE points to an armored private key.
 set -eu
-REV=2 # bump to rebuild the current versions after changing pkg/
+REV=3 # bump to rebuild the current versions after changing pkg/
 cd "$(dirname "$0")"
 published=${1:-site-out}
 dl=https://github.com/godotengine/godot-builds/releases/download
@@ -26,9 +26,13 @@ package() {
 		zip=$(echo "$5" | sed "s/ARCH/$a/")
 		sha=$(echo "$sums" | awk -v z="$zip" '$2 == z { print $1 }')
 		b=build/$1-$arch
+		csharp=
+		case $1 in *dotnet*) csharp=" This is the .NET build, for writing games in C#." ;; esac
+		id=io.github.riki137.$(echo "$1" | tr - _)
 		mkdir -p "$b"
-		for f in postinst.sh prerm.sh launcher.sh godot.desktop; do
-			sed -e "s|@PKG@|$1|g" -e "s|@CMD@|$2|g" -e "s|@PRIO@|$3|g" -e "s|@NAME@|$4|g" \
+		for f in postinst.sh prerm.sh launcher.sh godot.desktop godot.metainfo.xml; do
+			sed -e "s|@PKG@|$1|g" -e "s|@CMD@|$2|g" -e "s|@PRIO@|$3|g" -e "s|@NAME@|$4|g" -e "s|@ID@|$id|g" \
+				-e "s|@CSHARP@|$csharp|g" -e "s|@DATE@|$date|g" \
 				-e "s|@VERSION@|$tag|g" -e "s|@URL@|$dl/$tag/$zip|g" -e "s|@SHA512@|$sha|g" "pkg/$f" > "$b/$f"
 		done
 		{
@@ -44,15 +48,26 @@ package() {
 				homepage: https://github.com/riki137/godot-linux-packages
 				license: MIT
 				description: |-
-				  $4 - multi-platform 2D and 3D game engine (official build)
-				  Downloads the official Godot $tag build for $a from godotengine/godot-builds
-				  at install time, verifies its SHA-512 and installs it as the $2 command,
-				  with a menu entry and an alternative for the godot command. Adds the
-				  godot-linux-packages apt/dnf repo for updates.
+				  $4: free 2D and 3D game engine, official build
+				  Godot is a free and open source engine for making 2D and 3D games.$csharp
+
+				  This package gives you:
+
+				  - the official Godot $tag build for $a, checked against its SHA-512
+
+				  - Godot in your app menu, opening your .godot projects
+
+				  - the $2 and godot commands
+
+				  - new Godot releases with your normal system updates
+
+				  It's a small installer: it downloads Godot from github.com/godotengine/godot-builds
+				  and adds the godot-linux-packages repository for updates.
 				depends: [curl, unzip, ca-certificates]
 				contents:
 				  - {src: $b/launcher.sh, dst: /usr/bin/$2, file_info: {mode: 0755}}
 				  - {src: $b/godot.desktop, dst: /usr/share/applications/$1.desktop}
+				  - {src: $b/godot.metainfo.xml, dst: /usr/share/metainfo/$id.metainfo.xml}
 				  - {src: pkg/godot.svg, dst: /usr/share/icons/hicolor/scalable/apps/$1.svg}
 				  - {src: pkg/godot-mime.xml, dst: /usr/share/mime/packages/$1.xml}
 				  - {src: site/godot-linux-packages.asc, dst: /usr/share/$1/godot-linux-packages.asc}
@@ -88,6 +103,7 @@ channel() {
 	for zip in linux.x86_64 linux.arm64 mono_linux_x86_64 mono_linux_arm64; do
 		echo "$sums" | grep -q " Godot_v${tag}_$zip.zip\$" || { echo "$tag: Godot_v${tag}_$zip.zip isn't uploaded yet"; return; }
 	done
+	date=$(gh api "repos/godotengine/godot-builds/releases/tags/$tag" --jq .published_at | cut -c1-10)
 	out=dist/$tag-$REV
 	mkdir -p "$out"
 	# the godot alternative prefers .NET over plain, and stable over beta

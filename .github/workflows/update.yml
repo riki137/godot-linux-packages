@@ -54,7 +54,7 @@ jobs:
         id: publish
         run: |
           if ls dist/*/*.deb > /dev/null 2>&1; then
-            sudo apt-get install -y -qq apt-utils createrepo-c > /dev/null
+            sudo apt-get install -y -qq apt-utils createrepo-c appstream > /dev/null
           fi
           ./publish.sh
           cd site-out
