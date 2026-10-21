@@ -70,3 +70,5 @@ sudo dnf install godot-engine-dotnet
 Each package is under 10 KB. It holds the download URL, the SHA-512 and a [short install script](pkg/postinst.sh) that downloads the official zip from [godotengine/godot-builds](https://github.com/godotengine/godot-builds/releases), refuses it if the hash doesn't match and unpacks it to `/opt`. Removing the last package removes Godot and the repo again. Export templates still install from the editor.
 
 Unofficial, not affiliated with the Godot Foundation. Godot is MIT licensed, the Godot logo is CC BY 4.0 by Andrea Calabró. The packaging scripts are MIT too.
+
+Godot maintainers: if any of this is useful for official Linux packages, take it. Fork it, move it under godotengine, rewrite it, no credit needed. I'd be happy to see it go upstream in whatever shape works for you.
