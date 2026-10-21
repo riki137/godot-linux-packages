@@ -35,7 +35,10 @@ table { border-collapse: collapse; }
 td, th { padding: .35rem .8rem .35rem 0; text-align: left; border-bottom: 1px solid #2c333c; }
 h1 { line-height: 1.25; }
 .btn { display: inline-block; padding: .3rem .9rem; border-radius: 6px; background: #478cbf; color: #fff; font-weight: 600; text-decoration: none; }
-.btn.small { padding: .1rem .5rem; font-size: .85em; font-weight: 500; background: #3a4552; }
+.btn.small { padding: .1rem .5rem; font-size: .85em; font-weight: 500; opacity: .85; }
+.btn.deb { background: #e95420; }
+.btn.rpm { background: #3c6eb4; }
+p .btn { margin: 0 .3rem .4rem 0; }
 </style>
 </head>
 <body>
@@ -44,13 +47,14 @@ h1 { line-height: 1.25; }
 <p>Official Godot 4 builds as <code>.deb</code> and <code>.rpm</code> packages, the .NET (C#) version included. Install once, and every new Godot release arrives with your normal system updates.</p>
 
 <h2>Download Godot for Linux</h2>
-<table>
-<tr><th></th><th>Ubuntu, Debian, Mint</th><th>Fedora</th><th>arm64</th></tr>
-<tr><td>Godot .NET (C# and GDScript)</td><td><a class="btn" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet_amd64.deb">.deb</a></td><td><a class="btn" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet.x86_64.rpm">.rpm</a></td><td><a class="btn small" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet_arm64.deb">.deb</a> <a class="btn small" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet.aarch64.rpm">.rpm</a></td></tr>
-<tr><td>Godot (GDScript)</td><td><a class="btn" href="https://riki137.github.io/godot-linux-packages/download/godot-engine_amd64.deb">.deb</a></td><td><a class="btn" href="https://riki137.github.io/godot-linux-packages/download/godot-engine.x86_64.rpm">.rpm</a></td><td><a class="btn small" href="https://riki137.github.io/godot-linux-packages/download/godot-engine_arm64.deb">.deb</a> <a class="btn small" href="https://riki137.github.io/godot-linux-packages/download/godot-engine.aarch64.rpm">.rpm</a></td></tr>
-<tr><td>Godot .NET beta (dev, beta, rc)</td><td><a class="btn small" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet-beta_amd64.deb">.deb</a></td><td><a class="btn small" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet-beta.x86_64.rpm">.rpm</a></td><td><a class="btn small" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet-beta_arm64.deb">.deb</a> <a class="btn small" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet-beta.aarch64.rpm">.rpm</a></td></tr>
-<tr><td>Godot beta (dev, beta, rc)</td><td><a class="btn small" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-beta_amd64.deb">.deb</a></td><td><a class="btn small" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-beta.x86_64.rpm">.rpm</a></td><td><a class="btn small" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-beta_arm64.deb">.deb</a> <a class="btn small" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-beta.aarch64.rpm">.rpm</a></td></tr>
-</table>
+<h3>Ubuntu, Debian, Mint</h3>
+<p><a class="btn deb" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet_amd64.deb">Godot .NET (C#)</a> <a class="btn deb" href="https://riki137.github.io/godot-linux-packages/download/godot-engine_amd64.deb">Godot</a></p>
+<p><a class="btn small deb" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet-beta_amd64.deb">Godot .NET beta</a> <a class="btn small deb" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-beta_amd64.deb">Godot beta</a></p>
+<p><a class="btn small deb" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet_arm64.deb">arm64 Godot .NET (C#)</a> <a class="btn small deb" href="https://riki137.github.io/godot-linux-packages/download/godot-engine_arm64.deb">arm64 Godot</a> <a class="btn small deb" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet-beta_arm64.deb">arm64 Godot .NET beta</a> <a class="btn small deb" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-beta_arm64.deb">arm64 Godot beta</a></p>
+<h3>Fedora</h3>
+<p><a class="btn rpm" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet.x86_64.rpm">Godot .NET (C#)</a> <a class="btn rpm" href="https://riki137.github.io/godot-linux-packages/download/godot-engine.x86_64.rpm">Godot</a></p>
+<p><a class="btn small rpm" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet-beta.x86_64.rpm">Godot .NET beta</a> <a class="btn small rpm" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-beta.x86_64.rpm">Godot beta</a></p>
+<p><a class="btn small rpm" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet.aarch64.rpm">arm64 Godot .NET (C#)</a> <a class="btn small rpm" href="https://riki137.github.io/godot-linux-packages/download/godot-engine.aarch64.rpm">arm64 Godot</a> <a class="btn small rpm" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-dotnet-beta.aarch64.rpm">arm64 Godot .NET beta</a> <a class="btn small rpm" href="https://riki137.github.io/godot-linux-packages/download/godot-engine-beta.aarch64.rpm">arm64 Godot beta</a></p>
 <p>Open the file to install it, or run <code>sudo apt install ./godot-engine-dotnet_amd64.deb</code> (Fedora: <code>sudo dnf install ./godot-engine-dotnet.x86_64.rpm</code>). The package also adds this repo, so <code>apt upgrade</code> and <code>dnf upgrade</code> keep Godot current. Install as many variants as you like.</p>
 
 <h2>Why</h2>
