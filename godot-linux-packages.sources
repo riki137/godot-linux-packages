@@ -1,0 +1,4 @@
+Types: deb
+URIs: https://riki137.github.io/godot-linux-packages/deb
+Suites: ./
+Signed-By: /etc/apt/keyrings/godot-linux-packages.asc

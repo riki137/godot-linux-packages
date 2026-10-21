@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://riki137.github.io/godot-linux-packages/sitemap.xml
