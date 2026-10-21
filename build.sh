@@ -4,7 +4,7 @@
 # Output: dist/<upstream tag>-<REV>/*.deb *.rpm, one directory per new release. Needs gh, curl and nfpm.
 # rpms are signed when SIGNING_KEY_FILE points to an armored private key.
 set -eu
-REV=1 # bump to rebuild the current versions after changing pkg/
+REV=2 # bump to rebuild the current versions after changing pkg/
 cd "$(dirname "$0")"
 published=${1:-site-out}
 dl=https://github.com/godotengine/godot-builds/releases/download
@@ -47,13 +47,17 @@ package() {
 				  $4 - multi-platform 2D and 3D game engine (official build)
 				  Downloads the official Godot $tag build for $a from godotengine/godot-builds
 				  at install time, verifies its SHA-512 and installs it as the $2 command,
-				  with a menu entry and an alternative for the godot command.
+				  with a menu entry and an alternative for the godot command. Adds the
+				  godot-linux-packages apt/dnf repo for updates.
 				depends: [curl, unzip, ca-certificates]
 				contents:
 				  - {src: $b/launcher.sh, dst: /usr/bin/$2, file_info: {mode: 0755}}
 				  - {src: $b/godot.desktop, dst: /usr/share/applications/$1.desktop}
 				  - {src: pkg/godot.svg, dst: /usr/share/icons/hicolor/scalable/apps/$1.svg}
 				  - {src: pkg/godot-mime.xml, dst: /usr/share/mime/packages/$1.xml}
+				  - {src: site/godot-linux-packages.asc, dst: /usr/share/$1/godot-linux-packages.asc}
+				  - {src: site/godot-linux-packages.sources, dst: /usr/share/$1/godot-linux-packages.sources}
+				  - {src: site/godot-linux-packages.repo, dst: /usr/share/$1/godot-linux-packages.repo}
 				scripts: {postinstall: $b/postinst.sh, preremove: $b/prerm.sh}
 			EOF
 			case $1 in *dotnet*)

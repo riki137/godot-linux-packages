@@ -28,5 +28,14 @@ if [ "$(cat "$dir/.sha512" 2>/dev/null)" != "$sha512" ]; then
 	rm -rf "$dir.old"
 fi
 
+# a downloaded package adds the repo, so updates come with the normal system updates
+case $1 in
+configure) [ -e /etc/apt/sources.list.d/godot-linux-packages.sources ] || {
+	install -Dm644 /usr/share/@PKG@/godot-linux-packages.asc /etc/apt/keyrings/godot-linux-packages.asc
+	install -m644 /usr/share/@PKG@/godot-linux-packages.sources /etc/apt/sources.list.d/
+} ;;
+*) [ -e /etc/yum.repos.d/godot-linux-packages.repo ] || install -m644 /usr/share/@PKG@/godot-linux-packages.repo /etc/yum.repos.d/ ;;
+esac
+
 if command -v update-alternatives >/dev/null; then alt=update-alternatives; else alt=alternatives; fi
 $alt --install /usr/bin/godot godot /usr/bin/@CMD@ @PRIO@
