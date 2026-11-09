@@ -149,7 +149,7 @@ Description:
     <p>Godot is completely free and open source under the very permissive MIT license. No strings attached, no royalties, nothing.
     Your game is yours, down to the last line of engine code.</p>
     
-    <p>This is the official Godot 4.8-beta2 build, installed as a system package: it adds the godot-beta and godot commands, opens
+    <p>This is the official Godot 4.8-beta3 build, installed as a system package: it adds the godot-beta and godot commands, opens
     your .godot projects and updates with the rest of your system. Packaged by godot-linux-packages, which is not affiliated with the
     Godot Foundation.</p>
 DeveloperName:
@@ -192,9 +192,9 @@ Screenshots:
   source-image:
     url: https://docs.godotengine.org/en/stable/_images/introduction_editor.webp
 Releases:
-- version: '4.8-beta2'
+- version: '4.8-beta3'
   type: stable
-  unix-timestamp: 1793232000
+  unix-timestamp: 1794182400
 ContentRating:
   oars-1.1: {}
 ---
@@ -214,7 +214,7 @@ Description:
     <p>Godot is completely free and open source under the very permissive MIT license. No strings attached, no royalties, nothing.
     Your game is yours, down to the last line of engine code.</p>
     
-    <p>This is the official Godot 4.8-beta2 build, installed as a system package: it adds the godot-dotnet-beta and godot commands,
+    <p>This is the official Godot 4.8-beta3 build, installed as a system package: it adds the godot-dotnet-beta and godot commands,
     opens your .godot projects and updates with the rest of your system. Packaged by godot-linux-packages, which is not affiliated with
     the Godot Foundation.</p>
 DeveloperName:
@@ -257,8 +257,8 @@ Screenshots:
   source-image:
     url: https://docs.godotengine.org/en/stable/_images/introduction_editor.webp
 Releases:
-- version: '4.8-beta2'
+- version: '4.8-beta3'
   type: stable
-  unix-timestamp: 1793232000
+  unix-timestamp: 1794182400
 ContentRating:
   oars-1.1: {}
