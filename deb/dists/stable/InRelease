@@ -4,63 +4,63 @@ Hash: SHA512
 Architectures: amd64 arm64
 Codename: stable
 Components: main
-Date: Thu, 19 Nov 2026 00:40:07 +0000
+Date: Tue, 24 Nov 2026 18:22:16 +0000
 Label: Godot Engine
 Origin: godot-linux-packages
 Suite: stable
 MD5Sum:
- 8b7041f328bc8839645f32005fe824df             4276 Release
- 953e3bb41074efa8b356b69ed2bf02b9            20634 main/binary-amd64/Packages
- 885e63a185a0107aa16311e6d1607482             4276 main/binary-amd64/Packages.gz
- 9ae4cd6fd467382316ef08428542fbac            20616 main/binary-arm64/Packages
- 3f0f6e69844dd3af35af875dec521892             4271 main/binary-arm64/Packages.gz
- dac22b28cdd65438c1e78ca8c7734ec8             8153 main/dep11/Components-amd64.yml
- 8cbcf44734ff4cfd86698f78abc81c31             1221 main/dep11/Components-amd64.yml.gz
- dac22b28cdd65438c1e78ca8c7734ec8             8153 main/dep11/Components-arm64.yml
- f8449a72c4a227fad439e4246e89479a             1221 main/dep11/Components-arm64.yml.gz
+ 16f0a2806ff2688f71e7ffd40d9db202             4276 Release
+ 7d2189b5460b7dca38b8c391b0b37db1            23149 main/binary-amd64/Packages
+ 2a14ec12f9847211a65edd86764cee70             4648 main/binary-amd64/Packages.gz
+ a4b4d916f18aed104dddd3ed35feeae0            23129 main/binary-arm64/Packages
+ d7b51c958472b86e6cd38c041af90ed0             4640 main/binary-arm64/Packages.gz
+ 9b3e7224032c4a13987e584a7d9f581c             8153 main/dep11/Components-amd64.yml
+ a2c07685dc8156ba317ba2e1a00367b3             1221 main/dep11/Components-amd64.yml.gz
+ 9b3e7224032c4a13987e584a7d9f581c             8153 main/dep11/Components-arm64.yml
+ 2ec08fee2b3c25b8ec3c6b9b3ae9f0f4             1221 main/dep11/Components-arm64.yml.gz
 SHA1:
- 6b2505988e3a76f541ded06f4dbea68c356d55f3             4276 Release
- fa160e1b2843d6e40a4f20335510f202bb40186a            20634 main/binary-amd64/Packages
- d805b4cd10f3aeda93a56152d6bcdeea8a7c9221             4276 main/binary-amd64/Packages.gz
- d1d86efef9765047228976b5110c7d47f8fd9737            20616 main/binary-arm64/Packages
- aae67d7ea09980d26c17f6a712d64818b23e4f08             4271 main/binary-arm64/Packages.gz
- 86504bc0c8d83a1b1978e1054cc1f27575f5fcfb             8153 main/dep11/Components-amd64.yml
- 6bcc37a7d65da18c1a6109acfbcc23759e348229             1221 main/dep11/Components-amd64.yml.gz
- 86504bc0c8d83a1b1978e1054cc1f27575f5fcfb             8153 main/dep11/Components-arm64.yml
- a45c53f255acbd85ccc8dc5413e0200473bd6993             1221 main/dep11/Components-arm64.yml.gz
+ 3a0591ad6300aacab6cfcd521535f41eb92760d9             4276 Release
+ 6155f198514749866d57af636bd2a20470e6e6b5            23149 main/binary-amd64/Packages
+ 1f6fbe9ed3a18da9a17207d50d49afb5bdd35b10             4648 main/binary-amd64/Packages.gz
+ 917790cf69d3e28b93c448bf22b2cc5157dd4068            23129 main/binary-arm64/Packages
+ f7645782b2666eb2ddb9409bafd9dc2bf04cf997             4640 main/binary-arm64/Packages.gz
+ 8c098ae2c8ddc5d4c02f2073cb71c9af85dc3273             8153 main/dep11/Components-amd64.yml
+ dea1f6406262a69afa34e502daec11a32de18aa4             1221 main/dep11/Components-amd64.yml.gz
+ 8c098ae2c8ddc5d4c02f2073cb71c9af85dc3273             8153 main/dep11/Components-arm64.yml
+ c7ab266d1d91560b5e6b080e27f605e6a5382cd0             1221 main/dep11/Components-arm64.yml.gz
 SHA256:
- 1b3d95720dd58ea1e3f4ef01b4a26bba95c86e2bdb7e9cf953abc6b28db3631b             4276 Release
- ea10e925e3fad26676249c886a78bdd453a15a174f5ef4bd07aa187cd556e8b9            20634 main/binary-amd64/Packages
- a0e63ba4e39138ab45e3d91c8adec48fd92c4139721752c1d4d9cd1f8d662ee8             4276 main/binary-amd64/Packages.gz
- 329f34893e05bca7b2f6ee0efc0e142e28e61c7f72bbed6e15be2dea60331e3f            20616 main/binary-arm64/Packages
- 23072af1512c29d677c007085bc773128397566124be5dd0a8c784800981f77e             4271 main/binary-arm64/Packages.gz
- 65cbdfec0081e4cbeb23ee862b8a850e02fccf6fa8ebb17eec4fa5c47aade90c             8153 main/dep11/Components-amd64.yml
- dabaaa230ee3f6dcda0ca7a2bbbf52ba056d2c1a27b69f3d1f2abf1b2d8bc0db             1221 main/dep11/Components-amd64.yml.gz
- 65cbdfec0081e4cbeb23ee862b8a850e02fccf6fa8ebb17eec4fa5c47aade90c             8153 main/dep11/Components-arm64.yml
- e8c88205fdb1156ccf72f12ebe13d00aefe71906494979e05aed27b283e23243             1221 main/dep11/Components-arm64.yml.gz
+ 52252eafb45d0c594e30c97b9a8610dd14a82c3c008b26a62daa1a1e3c0f96de             4276 Release
+ b675dc9e5e5aa29d9d859e1857526b417e0103c461a7280c4abd15d4757dc179            23149 main/binary-amd64/Packages
+ b3e03d527fc49246fc56b34d11d2be3d100ae2b2a3a70e17114a872e0f5d74eb             4648 main/binary-amd64/Packages.gz
+ 7c76eed0d95bf8964332f98f89a2eb0a5805ba74de131e8fd074b6e4abee2809            23129 main/binary-arm64/Packages
+ 939db940bee65f9503465f6e3224858b11dfe6094620750419bd646f2ac24c88             4640 main/binary-arm64/Packages.gz
+ ade5e5cc525850992612b8fdc08611d31eab952cfa8242f7254e082c0251731c             8153 main/dep11/Components-amd64.yml
+ 8662247f533c98b58f05eca8c020c2a0314a4dcd39d9bc03fd690586960ef88b             1221 main/dep11/Components-amd64.yml.gz
+ ade5e5cc525850992612b8fdc08611d31eab952cfa8242f7254e082c0251731c             8153 main/dep11/Components-arm64.yml
+ a798d4465bb8d18b6df18159b7ca2c95dd49eca01295fe0e864d033d9d3e2670             1221 main/dep11/Components-arm64.yml.gz
 SHA512:
- 8f1eb66df2aa8bfdac23ecff24fab73eac324bdc21600f8779a5d51bf53ebd4f71649dc77f1451fdcd521df0d1ec9ee2ecc9d6faf6e760cdbcda67a2c7e6d9a7             4276 Release
- 2896e2960e1168071840a6eea915e515110aa31dd18bdb38984a094842aa106847fbfedbeef19f01586fb474b45382155d784c715cf109be950a6555109e84f6            20634 main/binary-amd64/Packages
- 7b39fa749d17e3bd585aa62a3594b47263842dc19bad515f45d4672257b006d1d58d83ce5a9c2748fc42c7ad34f9a2b3e360c5c7651ef8a2ee142b7a354be3ac             4276 main/binary-amd64/Packages.gz
- 68b60785ce993381001ce339eec36709241ea81bc566250c32a79cb2cfebdb2394b90ec29464d657218c680f802bd862d3b749a94d12a7caf0be9d373eee9fe1            20616 main/binary-arm64/Packages
- 112a90a2ba1cad6a99854059291132ad9c1e7bac6623b96d406494c8174c3b8a28c1f35208d791a4e1bf528d86d821f55ac1e1df5e31d639cf8dff7d7e2cde33             4271 main/binary-arm64/Packages.gz
- f8661c5fd6262d630ac352c50c2f77d5637d7f3ed28b9c534eba06c3299cad317fefea09d2a35d4b3d3ac9c4c4af1381ffbb67a76ea80455a6787167cc015e09             8153 main/dep11/Components-amd64.yml
- 040014f62037ba714aa38931400a6896ffea36477a3d841cdc2ba1041636dd590e1285298225edb2b48681971b898077e8de28d4ed5ad036a894304a6f0f6cff             1221 main/dep11/Components-amd64.yml.gz
- f8661c5fd6262d630ac352c50c2f77d5637d7f3ed28b9c534eba06c3299cad317fefea09d2a35d4b3d3ac9c4c4af1381ffbb67a76ea80455a6787167cc015e09             8153 main/dep11/Components-arm64.yml
- 15724cb9e15228085951e415d28991922d410c20ccfd99e339cae27e52a65f8d999e9d7a43991e11807a5c0c0bcbc35f1ad883dfdd55c17678fc5275929ead0b             1221 main/dep11/Components-arm64.yml.gz
+ 491db92c8f17b373ff568ffdf493531fe361b9ab5c638dd70bf89d1f73c76bb2ce8462d2a75ab2cfad42d64c07d399ff710102b1b4729fd720ac4992d1a35503             4276 Release
+ e0e803e238f380409fba6d3de8e90546c4a48334af09dbfaa4f3a50e597fa04df578d61836f3e649750e153c4ce7ff79a5c839d5ab47be3557c5b6fedee6d341            23149 main/binary-amd64/Packages
+ 665ab77ab7f972f8ec3a31d3fbbb2cc4219c1936d8a29ab243b0ae2810e44bb2e61008cc6e038d387296405488251b29fb7b62dfc54685c0f897b111c5f8dde7             4648 main/binary-amd64/Packages.gz
+ 5532ae1b714ef6851bc13405e387e00f061b920868b5111172c871cfdbc3b91dadddcaae5a363a57d4fd91600b9c50a6c21a0e4ad37af16b1c55833afbe3eff4            23129 main/binary-arm64/Packages
+ bbb0ca62432f7c24d0a971f919696c317efe9ab7e3d054337fab65d7863642199749c61b0adb85c22c6f5ef4f4042a7b448bc2ec62434ba5a632ab3f70b076e1             4640 main/binary-arm64/Packages.gz
+ 5ffcc015828c2447b7a0f09aa01a2b4f1818e7eb40bfd0fe7a01d8d125c0c23bb3a3d1424e27e40c60d1cfc5002cdeb1d005ee06e7ca2f97e107a0e575d36a45             8153 main/dep11/Components-amd64.yml
+ db948fda482e0f22431899c01526fb19c021689becb9a069cfb80c0bb50e1a72d0c4c88452a9284b35b6f78c3f8f8370bfb7751b266a9a687ebf476c3d0b689a             1221 main/dep11/Components-amd64.yml.gz
+ 5ffcc015828c2447b7a0f09aa01a2b4f1818e7eb40bfd0fe7a01d8d125c0c23bb3a3d1424e27e40c60d1cfc5002cdeb1d005ee06e7ca2f97e107a0e575d36a45             8153 main/dep11/Components-arm64.yml
+ bed1b79f30fe2331c3a935c62d27837f7b0d49daa49789b02edd7af80880711078577f8e545b35560254c0527bfc46114b79e486491b3767b72cbdda798c4ea4             1221 main/dep11/Components-arm64.yml.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEnkwZ/yJ2uo19P802PhBVqpI0CE0FAmr+RWcACgkQPhBVqpI0
-CE0tOA//QJboU+vE0jOkxRCmVVdZumxCH+43S0FL2yI7jEQGBJ2oddeAI/0H/aXk
-oyRcjsZ+uXV6MK6LCBXWthxSf1TdCKZrrJk5TFK1+lnW2bxMRM+mZLCeIyyU5R4O
-DdxrWiKAACcSFoc4trQTLbufRHbeFbeVcGqTAqgXEIbf9YHHoV/BR8/qzCFgK8LS
-cmDqfah/jM4mfgtZ+ZhGiNROesijrUmI7IsxFYWWYV+OJ/ME2CnjNUhIyERLbNtZ
-MYYkn2plbl3i2HRuKj/qSfpwQakUXVqW/fmwUIECIdJ4ymDQgQSOajcOnDPT8Z00
-sN90H0pKMRUo3gPZw7OhzUaR4ov/YJLJPI2ucpA9XcTzjvgRZ/CVW99BVCYn8AYn
-2f1IpOi5aRDTccf6fwMXyO4D140IuPxvdNMiL7EhX2dVRYpV2LNYdREVTAqQQFhp
-nmkE5T+b0Q4Vx8CBKmzF1d1E2urvNuHWJwmzXGMC0r76C7CF/u6Z3I7crUUCJtsW
-0y0pFa0DAIgr0Btdeam3OgxsqolCyYfiPMw3pzpvj0t0q3mfDGH2+HnMHXMcZIbw
-1gZZuBxEslCwVXmoQuwGkbdBrmYvVrUNfAiE9z2gbUrf76KMnjTNMkL+0kqXZRYh
-iY79icikgNwvoz5dIsVoXLjFkGDWRmDlgZ9B1bL45QAS/SLeji8=
-=o54A
+iQIzBAEBCgAdFiEEnkwZ/yJ2uo19P802PhBVqpI0CE0FAmsF1dgACgkQPhBVqpI0
+CE3qCQ/+Nqj3OOX5YGC3h30oBvZUfqjcti20ZywpOr/qIiu0aSwHzafMISHJWKQ8
+TdA0MizXYT4sP0ug1Elkb1AvQGgLQGXa4VQ/MRv/npeOwTL1eylrjKuOCA/Xx1YA
+d8MgdPZU1gFMthiiJ6Q1i9VLoPKGOInHiHVWbn5b26cNZQUqDegREa2Y1mEgv51U
+cmTCVe36vLZWC0yHfjjZqM8lNaYxodyB+YR8sCUmcZA5AbSTgTUZCeVh+MWwv65Y
+iciD2jdDGqvcq8b8GbHEUFiJkpOeXjnJZuNa+UPX/s2XLuaYXhykT8QTGBaw/1ky
+8fNL6R/8aEQT0SafJC1GDfnhVoNPgsPfH7iYdcIq7PYi281XPMkrPrydqZvzUKGL
+DAFy3E/6Nm2WFJvCK97i5Be+mfmdb9pEDbsnyu60x30bX+kQzMmKoR3iNyb4zraX
+j1V5hRMWqhGq+4WASbBw96JHCjrUpncAUPyRb0dBzFWsBpdA3bM/xEaDFbJSs4Ne
+hDJs/j6sgVR06tfeB7T7jQr1d0+juoZSwg58pYoH+RaEhdLsreGJz1l1mFiQkxF/
+zWcf/5TjkfQ9uudCNn5f6xI8glTdamjzsKv/vBFvdeKl0El4dgbUnDN1UMd4gzNB
+Y/+da0kitAS6MLZ4jFI6sSGMwpoVHqKku0/wjSg17HK4qeIQTAg=
+=xUKx
 -----END PGP SIGNATURE-----
