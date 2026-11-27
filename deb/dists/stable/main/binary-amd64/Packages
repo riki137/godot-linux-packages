@@ -194,6 +194,37 @@ Description: Godot Engine Beta: free 2D and 3D game engine, official build
  It's a small installer: it downloads Godot from github.com/godotengine/godot-builds
  and adds the godot-linux-packages repository for updates.
 
+Package: godot-engine-beta
+Architecture: amd64
+Version: 4.8~rc1-3
+Priority: optional
+Section: devel
+Maintainer: riki137 <riki137@users.noreply.github.com>
+Installed-Size: 8
+Depends: curl, unzip, ca-certificates
+Filename: ./godot-engine-beta_4.8~rc1-3_amd64.deb
+Size: 7168
+MD5sum: 903ddc31990f2a96d6577bd57fd4c9d4
+SHA1: c962263c1db41c7a9620cdf5faa2ec47c4a4e36d
+SHA256: 080bf78100f3f9f87bd55a6e421b43642031c04420ee12dd78c0fd93d9a05181
+SHA512: a7ef3b5ea730879cd80183032a87c2b381ee2e560ebdff7aa82050296ac96a4c6b1a756af28cd044157afb93335c12091e48163d0f8c92a61f2637b333d70cb2
+Homepage: https://github.com/riki137/godot-linux-packages
+Description: Godot Engine Beta: free 2D and 3D game engine, official build
+ Godot is a free and open source engine for making 2D and 3D games.
+ .
+ This package gives you:
+ .
+ - the official Godot 4.8-rc1 build for x86_64, checked against its SHA-512
+ .
+ - Godot in your app menu, opening your .godot projects
+ .
+ - the godot-beta and godot commands
+ .
+ - new Godot releases with your normal system updates
+ .
+ It's a small installer: it downloads Godot from github.com/godotengine/godot-builds
+ and adds the godot-linux-packages repository for updates.
+
 Package: godot-engine-dotnet-beta
 Architecture: amd64
 Version: 4.8~beta1-1
@@ -387,6 +418,38 @@ Description: Godot Engine Beta (.NET): free 2D and 3D game engine, official buil
  This package gives you:
  .
  - the official Godot 4.8-beta5 build for x86_64, checked against its SHA-512
+ .
+ - Godot in your app menu, opening your .godot projects
+ .
+ - the godot-dotnet-beta and godot commands
+ .
+ - new Godot releases with your normal system updates
+ .
+ It's a small installer: it downloads Godot from github.com/godotengine/godot-builds
+ and adds the godot-linux-packages repository for updates.
+
+Package: godot-engine-dotnet-beta
+Architecture: amd64
+Version: 4.8~rc1-3
+Priority: optional
+Section: devel
+Maintainer: riki137 <riki137@users.noreply.github.com>
+Installed-Size: 8
+Depends: curl, unzip, ca-certificates
+Recommends: dotnet-sdk-10.0 | dotnet-sdk-9.0 | dotnet-sdk-8.0
+Filename: ./godot-engine-dotnet-beta_4.8~rc1-3_amd64.deb
+Size: 7272
+MD5sum: 6ecef623078a7e42f4419785c26c6a09
+SHA1: c8348a11a3e393bdcb7334853183ad25dcf221bc
+SHA256: bc346b6f919af4dbb35d18d374e6fb21c7682cd11f896dca271fcbacf16be5a6
+SHA512: e58135693730697ab91fe23872c2d72aa17cc07dcb41e42409e9e9d359bf2e860f72f41cb2a1083e3310ed2c41bd464a0c5bd5cd61eab163363bdc43268e2578
+Homepage: https://github.com/riki137/godot-linux-packages
+Description: Godot Engine Beta (.NET): free 2D and 3D game engine, official build
+ Godot is a free and open source engine for making 2D and 3D games. This is the .NET build, for writing games in C#.
+ .
+ This package gives you:
+ .
+ - the official Godot 4.8-rc1 build for x86_64, checked against its SHA-512
  .
  - Godot in your app menu, opening your .godot projects
  .
